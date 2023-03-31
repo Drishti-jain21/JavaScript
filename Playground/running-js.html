@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <p>Hey</p> <!--this will be shown on the console including the paragraph tags as the document selector reads the paragraph tag-->
+        <script>
+            const p = document.querySelector('p');
+            console.log(p);
+        </script>
+        <!--<p>Hey</p>  if we place this here, it won't be read and we will get null in console-->
+        <script src="./some.js"></script> <!--We can read js file through this also-->
+    </body>
+</html>
